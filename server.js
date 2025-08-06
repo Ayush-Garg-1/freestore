@@ -22,7 +22,7 @@ app.get("/", function(req, res) {
 
 
 // Routes
-app.use('/products', productRoutes);
+app.use('/api/products', productRoutes);
 
 // Start server
 const PORT = process.env.PORT || 5000;
