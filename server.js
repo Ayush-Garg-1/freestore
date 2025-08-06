@@ -28,10 +28,10 @@ app.get("/", function(req, res) {
 
 
 // Routes
-app.use('/api/products', productRoutes);
+app.use('/products', productRoutes);
 
 // Start server
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 8000;
 app.listen(PORT, () => {
     console.log(`Server running on http://localhost:${PORT}`);
 });
