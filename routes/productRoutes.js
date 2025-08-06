@@ -17,15 +17,15 @@ const {
 // const { loadProductData } = require('../controllers/loadProductData');
 // router.get('/loadData', loadProductData);
 
-// CRUD routes
-router.get('/category', getCategories);
-router.get('/category/:category', getProductsByCategory);
-router.get('/search', searchProducts);
-
 router.get('/', getProducts);
 router.post('/', createProduct);
 router.put('/:id', updateProduct);
 router.delete('/:id', deleteProduct);
+
+router.get('/category', getCategories);
+router.get('/category/:category', getProductsByCategory);
+router.get('/search', searchProducts);
+
 
 router.get('/:id', getProductById);
 
