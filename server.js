@@ -8,7 +8,7 @@ const path = require('path');
 dotenv.config();
 connectDB();
 
-// 
+// mid
 
 const app = express();
 
