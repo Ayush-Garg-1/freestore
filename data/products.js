@@ -679,18 +679,7 @@ const products =[
       "brand": "Hisense",
       "features": ["Mini LED", "144Hz Refresh Rate", "Dolby Vision"],
     },
-    {
-      "name": "Samsung Galaxy S25 Ultra",
-      "price": 1299.99,
-      "category": "Phone",
-      "image": "https://example.com/images/samsung_s25_ultra.jpg",
-      "description":
-          "The Samsung Galaxy S25 Ultra is a flagship smartphone that redefines mobile innovation with its 6.8-inch Dynamic AMOLED 2X display, offering a 120Hz refresh rate for vibrant visuals and smooth scrolling. Powered by the Snapdragon 8 Gen 4 processor and 12GB of RAM, it delivers exceptional performance for gaming, multitasking, and productivity. The 200MP main camera, paired with 50MP ultrawide and 10MP telephoto lenses, captures stunning photos and 8K videos, enhanced by AI for low-light and zoom capabilities. The S Pen supports precise note-taking and creative tasks, ideal for professionals and artists. With a 5000mAh battery, 45W fast charging, and wireless charging, it ensures all-day power. Running One UI 7, it offers a customizable interface and Samsung DeX for desktop-like functionality. The IP68 rating and Gorilla Glass Victus 3 provide durability against water and scratches. Perfect for content creators, gamers, and power users, the Galaxy S25 Ultra combines cutting-edge technology, premium design, and versatile features for an unmatched mobile experience in any scenario.",
-      "rating": 4.8,
-      "stock": 150,
-      "brand": "Samsung",
-      "features": ["200MP Camera", "Snapdragon 8 Gen 4", "S Pen Support"],
-    },
+   
     {
       "name": "iPhone 16 Pro Max",
       "price": 1199.99,
